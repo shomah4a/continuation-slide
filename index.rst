@@ -273,8 +273,8 @@
 
 - 「現在の処理の直後の継続を取り出す」という関数
 
-  - `call-with-current-continuation <http://community.schemewiki.org/?call-with-current-continuation>`__  (scheme)
-  - `Kernel.#calcc <http://ruby-doc.org/core-2.2.0/Kernel.html#method-i-callcc>`__ (Ruby)
+  - `call-with-current-continuation(call/cc) <http://community.schemewiki.org/?call-with-current-continuation>`__  (scheme)
+  - `Kernel.#callcc <http://ruby-doc.org/core-2.2.0/Kernel.html#method-i-callcc>`__ (Ruby)
 
 - `Stackless Python <http://www.stackless.com/>`__ なんてのもいたよね
 
@@ -285,6 +285,43 @@
 
 
 使ってみる
+==========
+
+.. literalinclude:: none.scm
+   :language: scheme
+
+
+.. s6:: styles
+
+   div: {fontSize: '45%', width: '90%', marginTop: '1em', marginLeft: '5%', marginRight: '5%'}
+
+
+
+goto してみる
+=============
+
+.. literalinclude:: goto.scm
+   :language: scheme
+
+
+.. s6:: styles
+
+   div: {fontSize: '45%', width: '90%', marginTop: '1em', marginLeft: '5%', marginRight: '5%'}
+
+
+break してみる
+==============
+
+.. literalinclude:: break.scm
+   :language: scheme
+
+
+.. s6:: styles
+
+   div: {fontSize: '45%', width: '90%', marginTop: '1em', marginLeft: '5%', marginRight: '5%'}
+
+
+関数に渡す
 ==========
 
 .. literalinclude:: callcc.scm
