@@ -12,7 +12,7 @@
 
 (define result
   ;; 受け取った関数に現在の継続を渡して呼び出す
-  (call-with-current-continuation
+  (call/cc
    (lambda (cont)
      ;; 継続を渡して呼び出す
      (add-cont 10 20 cont))))
