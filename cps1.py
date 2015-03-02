@@ -4,7 +4,6 @@ def add_cps(x, y, cont):
     '''
     cont(x + y)
 
-
 def output(v):
     print v
 

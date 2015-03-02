@@ -1,12 +1,17 @@
-def fact(x):
+#-*- coding:utf-8 -*-
+def fact_(m, result):
     u'''
-    再帰関数による階乗計算
+    途中経過を関数の引数として持っておく
     '''
+    if m <= 1:
+        return result
+    else:
+        return fact_(m-1, result*m)
 
-    if not x:
-        return 1
 
-    return x * fact(x-1)
+def fact(n):
+
+    return fact_(n, 1)
 
 
 print fact(5)
