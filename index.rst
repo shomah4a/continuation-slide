@@ -653,8 +653,8 @@ Generator
    ul: {'fontSize': '50%'}
 
 
-Generator in Scheme
-===================
+限定継続の例
+============
 
 
 .. literalinclude:: continuation.scala

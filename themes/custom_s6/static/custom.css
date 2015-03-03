@@ -1,0 +1,10 @@
+@import url("s6.css");
+
+ul
+{
+  margin-left: 5% !important;
+}
+
+.s6.sphinx .page {
+    background-image: none !important;
+}
